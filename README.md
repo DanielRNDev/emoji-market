@@ -21,5 +21,5 @@
 ## USING PACKAGES
 1. react-native - Version 0.61.5 - https://facebook.github.io/react-native/
 2. react-navigation v5 - https://github.com/react-navigation/react-navigation
-3. react-native-skeleton-content-nonexpo - For Skeleton effects on loading
-4. react-native-super-grid - https://github.com/alexZajac/react-native-skeleton-content-nonexpo
+3. react-native-skeleton-content-nonexpo - For Skeleton effects on loading - https://github.com/alexZajac/react-native-skeleton-content-nonexpo
+4. react-native-super-grid - Easy grid - https://github.com/saleel/react-native-super-grid
