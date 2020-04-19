@@ -7,6 +7,9 @@ const { width } = Dimensions.get('window')
 const getTimeline = (value) => `${value < 0 ? 'ago' : 'later'}`
 const getFromNowText = (diff, text) => {
   if (Math.abs(diff) === 1) {
+    if (text === 'day') {
+      return getTimeline(diff) === 'ago' ? 'Yesterday' : 'Tomorrow'
+    }
     return `A ${text} ${getTimeline(diff)}`
   } else {
     return `${Math.abs(diff)} ${text}s ${getTimeline(diff)}`
